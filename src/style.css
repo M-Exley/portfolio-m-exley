@@ -55,6 +55,7 @@
   border: white 2px solid;
   border-radius: 6%;
   padding: 1rem 2rem;
+  user-select: none;
 }
 
 .clickable:hover {
@@ -111,6 +112,9 @@
   border-left: blue solid 5px;
 }
 
+/* .javascript-project */
+/* .react-project */
+
 a {
   font-weight: 500;
   color: white;
@@ -144,6 +148,26 @@ h3 {
 /* Hover bounce */
 .svg:hover {
   animation: bounce 0.6s ease-out;
+}
+
+.clickable-1:active {
+  -webkit-box-shadow: 5px 5px 15px 5px #ffee3b;
+  box-shadow: 5px 5px 15px 5px #ffee3b;
+}
+
+.clickable-2:active {
+  -webkit-box-shadow: 5px 5px 15px 5px #3337ff;
+  box-shadow: 5px 5px 15px 5px #3337ff;
+}
+
+.clickable-3:active {
+  -webkit-box-shadow: 5px 5px 15px 5px #d626ff;
+  box-shadow: 5px 5px 15px 5px #d626ff;
+}
+
+.clickable-4:active {
+  -webkit-box-shadow: 5px 5px 15px 5px #ff7826;
+  box-shadow: 5px 5px 15px 5px #ff7826;
 }
 
 /* Keyframes for bounce */
