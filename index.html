@@ -10,19 +10,31 @@
     <div id="container">
       <div class="intro-container">
         <h3>Portfolio: Macaylen Exley</h3>
-        <p>
+        <p class="intro-english">
           Training software developer with knowledge of several different
-          languages. Around three years of practice.
+          languages.
           <br />
-          I'm looking for junior positions in Front-end, Back-end or Full-stack.
+          Around three years of practice.
+          <br />
+          I'm looking for junior positions in frontend, backend or full-stack.
           <br />
           Have a look at my projects below or filter by language.
         </p>
+        <p class="intro-spanish">
+          Desenvolupador con conocimientos de varios lenguajes de programacion.
+          <br />
+          Más o menos tres años de práctica.
+          <br />
+          Busco posiciones basicas de frontend, backend o full-stack.
+          <br />
+          Echar un vistazo a los proyectos míos abajo o filtrar por lenguaje.
+        </p>
+        <button class="toggle-lang">ESPAÑOL</button>
         <div class="clickable-languages">
           <p class="clickable clickable-1">Javascript</p>
           <p class="clickable clickable-2">React</p>
-          <p class="clickable clickable-3">Angular</p>
-          <p class="clickable clickable-4">Java</p>
+          <p class="clickable clickable-3">NodeJS</p>
+          <p class="clickable clickable-4">MongoDB</p>
         </div>
       </div>
       <div class="svg">
@@ -128,12 +140,14 @@
         <div class="display display-4 react-project">
           <img
             class="display-react"
-            src="src/screenshots/conditionalsV1.png"
+            src="src/screenshots/conditionals-react.png"
             alt=""
             height="200px"
           />
           <p>
-            <a target="_blank" href="https://conditional-sentences.netlify.app/"
+            <a
+              target="_blank"
+              href="https://conditionals-sentences-react.netlify.app/"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -149,7 +163,7 @@
                   d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4 4 0 0 1-.82 1H12a3 3 0 1 0 0-6z"
                 />
               </svg>
-              Conditional Sentences React - pending</a
+              Conditional Sentences React</a
             >
           </p>
         </div>
@@ -210,6 +224,11 @@
             >
           </p>
         </div>
+      </div>
+      <div class="widget">
+        CV
+        <div class="cv cv-english"></div>
+        <div class="cv cv-spanish"></div>
       </div>
     </div>
     <script type="module" src="/src/main.js"></script>

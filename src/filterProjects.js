@@ -8,4 +8,6 @@ export default function filterProjects() {
       console.log(selection);
     }
   });
+
+  
 }
